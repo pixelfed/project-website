@@ -6,19 +6,27 @@
     <meta name="description" content="PixelFed is an activitypub based image sharing platform.">
     <title>PixelFed - Federated Image Sharing</title>
     <link href="css/app.css?id=LaN7XOxuz9Pi2vZrBNhP" rel="stylesheet">
-
   </head>
 
   <body>
 
 
     <header>
-      <div class="navbar navbar-light bg-light box-shadow">
-        <div class="container d-flex justify-content-between">
+      <div class="navbar navbar-expand-lg navbar-light bg-light box-shadow">
+        <div class="container d-flex justify-content-between navbar-nav mr-auto">
           <a href="https://pixelfed.org" class="navbar-brand d-flex align-items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-            <strong>PixelFed</strong>
+            <strong translated>PixelFed</strong>
           </a>
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" translated>
+              文A
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="?lng=en" translated>English</a>
+              <a class="dropdown-item" href="?lng=pl" translated>Polski</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -27,7 +35,7 @@
       <div class="jumbotron jumbotron-fluid bg-transparent my-0">
         <div class="container text-center">
           <h1 class="display-4">Federated Image Sharing</h1>
-          <p class="lead">Powered by <a href="https://en.wikipedia.org/wiki/ActivityPub" class="text-white font-weight-bold">ActivityPub</a> and the <a href="https://en.wikipedia.org/wiki/Fediverse" class="text-white font-weight-bold">fediverse</a>.</p>
+          <p class="lead">Powered by <a href="https://en.wikipedia.org/wiki/ActivityPub" class="text-white font-weight-bold" translated>ActivityPub</a> and the <a href="https://en.wikipedia.org/wiki/Fediverse" class="text-white font-weight-bold">fediverse</a>.</p>
         </div>
       </div>
 
@@ -98,7 +106,7 @@
         <div class="container py-5">
           <div class="my-5 p-5 text-center ">
               <p class="display-4 font-weight-bold">Coming Soon!</p>
-              <p class="h4 font-weight-bold">Follow <a href="https://mastodon.social/@pixelfed">@pixelfed</a> for the latest updates!</p>
+              <p class="h4 font-weight-bold">Follow <a href="https://mastodon.social/@pixelfed" translated>@pixelfed</a> for the latest updates!</p>
           </div>
   
         </div>  
@@ -111,19 +119,23 @@
           <div class="col-12 col-md">
             <div class="d-flex align-items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-              <strong>PixelFed</strong>
+              <strong translated>PixelFed</strong>
             </div>
-            <small class="d-block mb-3 text-muted">&copy; 2018 pixelfed.org</small>
+            <small class="d-block mb-3 text-muted" translated>&copy; 2018 pixelfed.org</small>
           </div>
           <div class="col-6 col-md-3">
             <h5>Resources</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="https://github.com/pixelfed">Github</a></li>
+              <li><a class="text-muted" href="https://github.com/pixelfed" translated>Github</a></li>
               <li><a class="text-muted" href="https://mastodon.social/@pixelfed">Follow Us</a></li>
             </ul>
           </div>
         </div>
       </footer>
     </div>
+
+    <script src="js/i18nextify.min.js" integrity="sha384-eUBQoOf6CEJVKHElf7WGwHzQWFTkrW+gEMybPvN7rHoHutW5vBeHDOX2P0/l1b+H" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha256-xaF9RpdtRxzwYMWg4ldJoyPWqyDPCRD0Cv7YEEe6Ie8=" crossorigin="anonymous"></script>
   </body>
 </html>
